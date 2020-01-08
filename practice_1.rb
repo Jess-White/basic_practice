@@ -12,3 +12,11 @@ def string_fives
   end 
 end 
 string_fives
+
+def string_eights
+  string_eight = "eight"
+  8.times do 
+    p string_eight
+  end 
+  split_string = string_variable.split("")
+end 
