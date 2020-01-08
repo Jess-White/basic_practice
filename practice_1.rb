@@ -3,5 +3,6 @@ def string_fives
   5.times do 
     p string_variable
   end 
+  p string_variable.split("")
 end 
 string_fives
