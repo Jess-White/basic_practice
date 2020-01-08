@@ -4,8 +4,11 @@ def string_fives
     p string_variable
   end 
   split_string = string_variable.split("")
-  split_string.each do |letter|
-    puts "!!! #{letter} !!!"
+  split_string.each do |text_art|
+    puts "!!! #{text_art} !!!"
+  end 
+  split_string.each do |repeat_yourself|
+    print repeat_yourself * 3
   end 
 end 
 string_fives
