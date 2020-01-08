@@ -3,6 +3,9 @@ def string_fives
   5.times do 
     p string_variable
   end 
-  p string_variable.split("")
+  split_string = string_variable.split("")
+  split_string.each do |letter|
+    puts "!!! #{letter} !!!"
+  end 
 end 
 string_fives
