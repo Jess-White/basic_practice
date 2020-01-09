@@ -4,21 +4,28 @@
 
 # 1. Given an array of numbers, go through the list of numbers one at a time, if a number is greater than 100 then print “That’s high”, if the number is not greater than 100 print “I could go higher”
 
-def high_higher(num_array)
-  num_array.each do |num|
-    if num < 100 
-      puts "I could go higher"
-    elsif num > 100 
-      puts "That's high"
-    else 
-      puts "Perfect!"
-    end     
-  end
-end 
+# def high_higher(num_array)
+#   num_array.each do |num|
+#     if num < 100 
+#       puts "I could go higher"
+#     elsif num > 100 
+#       puts "That's high"
+#     else 
+#       puts "Perfect!"
+#     end     
+#   end
+# end 
 
-high_higher([100, 200, 2000, 30])
+# high_higher([100, 200, 2000, 30])
 
 # 2. Given an array of numbers, go through the list of numbers one at a time, Print each number divided in half. It should print a whole number if the original number is even and the printed number should include a decimal if the original number was odd.
+
+def half_evens(half_array)
+  half_array.each do |num|
+    half = num / 2
+    puts half
+  end 
+end 
 
 # 3. Take a string made of multiple words. Print the last letter of every word.
 
